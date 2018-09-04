@@ -4,8 +4,6 @@
 
 int main()
 {
-    printf("Calculadora\n");
-
     int opcion;
     float primerOperando;
     float segundoOperando;
@@ -17,13 +15,16 @@ int main()
     int segundoOperandoEntero;
     long int factorialPrimerOperando;
     long int factorialSegundoOperando;
+    /**< Banderas */
     int primerOperandoIngresado = 0;
     int segundoOperandoIngresado = 0;
+    int cambioDeOperando = 0;
     int divisionPorCero = 0;
-    int calculosRealizados;
+    int calculosRealizados = 0;
     int posibleFactorizarPrimerOperando;
     int posibleFactorizarSegundoOperando;
 
+    printf("Bienvenido a la Calculadora.\n");
 
     do{
         printf("\nSeleccion de opciones:\n");
@@ -48,12 +49,14 @@ int main()
                 primerOperando = pedirNumero("\nIngrese el primer operando:\n");
                 printf("Primer operando: %f\n", primerOperando);
                 primerOperandoIngresado = 1;
+                cambioDeOperando = 1;
                 posibleFactorizarPrimerOperando = comprobarFactorizacion(primerOperando);
                 break;
             case 2:
                 segundoOperando = pedirNumero("\nIngrese el segundo operando: ");
                 printf("Segundo operando: %f\n", segundoOperando);
                 segundoOperandoIngresado = 1;
+                cambioDeOperando = 1;
                 posibleFactorizarSegundoOperando = comprobarFactorizacion(segundoOperando);
                 break;
             case 3:
@@ -69,26 +72,22 @@ int main()
                     if(posibleFactorizarPrimerOperando == 1){
                         primerOperandoEntero = primerOperando;
                         factorialPrimerOperando = calcularFactorial(primerOperandoEntero);
-                    } else {
-                        factorialPrimerOperando = 0;
                     }
                     if(posibleFactorizarSegundoOperando == 1){
                         segundoOperandoEntero = segundoOperando;
                         factorialSegundoOperando = calcularFactorial(segundoOperandoEntero);
-                    } else {
-                        factorialSegundoOperando = 0;
                     }
                     calculosRealizados = 1;
+                    cambioDeOperando = 0;
                     printf("\nLos calculos se han completado.\n");
                 } else {
-                    calculosRealizados = 0;
                     printf("\nFalta ingresar algun operando, los calculos no se han realizado.\n");
                 }
                 break;
             case 4:
-                if(calculosRealizados == 1){
+                if(calculosRealizados == 1 && cambioDeOperando == 0){
                     printf("\nResultados:\n");
-                    printf("\na) El resultado de %.3f + %.3f es: %.3f\n", primerOperando, segundoOperando, suma);
+                    printf("a) El resultado de %.3f + %.3f es: %.3f\n", primerOperando, segundoOperando, suma);
                     printf("b) El resultado de %.3f - %.3f es: %.3f\n", primerOperando, segundoOperando, resta);
                     if(divisionPorCero == 0){
                         printf("c) El resultado de %.3f / %.3f es: %.3f\n", primerOperando, segundoOperando, division);
@@ -104,10 +103,16 @@ int main()
                     if(posibleFactorizarSegundoOperando == 1){
                         printf("el factorial de %.0f es: %ld\n", segundoOperando, factorialSegundoOperando);
                     } else{
-                        printf("No es posible factorizar el segundo operando\n");
+                        printf("no es posible factorizar el segundo operando\n");
                     }
                 } else {
-                    printf("\nLos calculos aun no han sido realizados.\n");
+                    if(calculosRealizados == 0){
+                        printf("\nLos calculos aun no han sido realizados.\n");
+                    } else {
+                        if(cambioDeOperando == 1){
+                            printf("\nUn operando ha sido cambiado. Debe realizar los calculos nuevamente.\n");
+                        }
+                    }
                 }
                 break;
             case 5:
