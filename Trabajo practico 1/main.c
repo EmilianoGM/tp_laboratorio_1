@@ -15,7 +15,7 @@ int main()
     int segundoOperandoEntero;
     long int factorialPrimerOperando;
     long int factorialSegundoOperando;
-    /**< Banderas */
+    /* Banderas */
     int primerOperandoIngresado = 0;
     int segundoOperandoIngresado = 0;
     int cambioDeOperando = 0;
@@ -36,7 +36,7 @@ int main()
         if(segundoOperandoIngresado == 0){
             printf("2) Ingresar segundo operando\n");
         } else {
-            printf("2) Ingresar segundo operando (Valor actual = %f\n", segundoOperando);
+            printf("2) Ingresar segundo operando (Valor actual = %f)\n", segundoOperando);
         }
         printf("3) Calcular todas las operaciones\n");
         printf("4) Resultados de las operaciones\n");

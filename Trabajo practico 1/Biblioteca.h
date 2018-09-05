@@ -50,7 +50,7 @@ float calcularMultiplicacion(float, float);
  */
  long int calcularFactorial(int);
 
- /** \brief comprueba si un numero es entero retornando 0 si NO lo es y 1 si lo es
+ /** \brief Comprueba si un numero flotante es entero retornando 0 si NO lo es y 1 si lo es
 
   *
   * \param float
@@ -59,9 +59,9 @@ float calcularMultiplicacion(float, float);
   */
   int comprobarEntero(float);
 
-  /** \brief comprueba si es posible aplicar la factorizacion a un numero
+  /** \brief Comprueba si es posible aplicar la factorizacion a un numero flotante
    *         retornando 0 si NO lo es y 1 si lo es
-   * \param int
+   * \param float
    * \return int
    *
    */
