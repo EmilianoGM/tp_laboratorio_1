@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1538424055 source:c:\users\liliana\desktop\tecnicatura\trabajo practico 2\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1538424055 c:\users\liliana\desktop\tecnicatura\trabajo practico 2\biblioteca.h
+
+1514140574 source:c:\users\liliana\desktop\tecnicatura\trabajo practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1538513842 source:c:\users\liliana\desktop\tecnicatura\ejercicios\pruebas 1-10\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1538532790 source:c:\users\liliana\desktop\tecnicatura\ejercicios\pruebas 1-10\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+	"ArrayEmployees.h"
+
+1538535287 c:\users\liliana\desktop\tecnicatura\ejercicios\pruebas 1-10\biblioteca.h
+
+1538513842 c:\users\liliana\desktop\tecnicatura\ejercicios\pruebas 1-10\arrayemployees.h
+
+1538535243 source:c:\users\liliana\desktop\tecnicatura\ejercicios\pruebas 1-10\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1538621379 source:c:\users\liliana\desktop\tecnicatura\pruebas 1-10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+	"ArrayEmployees.h"
+	"Menu.h"
+
+1538620133 source:c:\users\liliana\desktop\tecnicatura\pruebas 1-10\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1538619074 c:\users\liliana\desktop\tecnicatura\pruebas 1-10\biblioteca.h
+
+1538620921 source:c:\users\liliana\desktop\tecnicatura\pruebas 1-10\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+	"ArrayEmployees.h"
+
+1538619182 c:\users\liliana\desktop\tecnicatura\pruebas 1-10\arrayemployees.h
+
+1538618760 c:\users\liliana\desktop\tecnicatura\pruebas 1-10\menu.h
+
+1538620933 source:c:\users\liliana\desktop\tecnicatura\pruebas 1-10\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+	"ArrayEmployees.h"
+	"Menu.h"
+
