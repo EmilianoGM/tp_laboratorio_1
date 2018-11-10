@@ -1,0 +1,277 @@
+# depslib dependency file v1.0
+1533062952 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.c
+
+1533063050 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/LinkedList.h
+
+1533062926 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533062952 source:/home/mauro/Descargas/TP3/Linux_64/Employee.c
+
+1533066103 source:/home/mauro/Descargas/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/TP3/Linux_64/LinkedList.h
+
+1533066103 /home/mauro/Descargas/TP3/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533145792 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/LinkedList.h
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.h
+
+1533118898 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.c
+
+1533145890 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1541215758 source:c:\users\liliana\desktop\tecnicatura\tp3\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Menu.h"
+
+1533133022 c:\users\liliana\desktop\tecnicatura\tp3\win_64\linkedlist.h
+
+1541215758 c:\users\liliana\desktop\tecnicatura\tp3\win_64\employee.h
+
+1541215757 source:c:\users\liliana\desktop\tecnicatura\tp3\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1541215863 source:c:\users\liliana\desktop\tecnicatura\tp3\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Menu.h"
+
+1533133022 c:\users\liliana\desktop\tecnicatura\tp3\win_64\controller.h
+
+1541209571 source:c:\users\liliana\desktop\tecnicatura\tp3\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1541209144 source:c:\users\liliana\desktop\tecnicatura\tp3\win_64\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1541209144 c:\users\liliana\desktop\tecnicatura\tp3\win_64\biblioteca.h
+
+1541215757 c:\users\liliana\desktop\tecnicatura\tp3\win_64\menu.h
+
+1541216161 source:c:\users\liliana\desktop\tecnicatura\tp3\win_64\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
+1533133022 c:\users\liliana\desktop\tecnicatura\tp3\win_64\parser.h
+
+1541418357 source:c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1541418357 c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\biblioteca.h
+
+1541421199 source:c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1541420386 c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\employee.h
+
+1541422860 source:c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
+1541424191 source:c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1541418357 c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\linkedlist.h
+
+1541423987 source:c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Menu.h"
+
+1541418357 c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\parser.h
+
+1541418357 c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\menu.h
+
+1541422860 source:c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Menu.h"
+
+1541418357 c:\users\alumno\desktop\hoy\clase 27 dos\clase 27-10\controller.h
+
+1541723567 source:c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1541723567 c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\biblioteca.h
+
+1541713971 source:c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1541713971 c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\employee.h
+
+1541713971 source:c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Menu.h"
+
+1541713971 c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\linkedlist.h
+
+1541713971 c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\controller.h
+
+1541713971 c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\menu.h
+
+1541713971 source:c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
+1541724136 source:c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Biblioteca.h"
+
+1541723891 source:c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Menu.h"
+
+1541713971 c:\users\liliana\desktop\tecnicatura\tp\clase 27 dos\clase 27-10\parser.h
+
+1541817962 source:c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Menu.h"
+
+1541813196 c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\linkedlist.h
+
+1541813196 c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\controller.h
+
+1541813196 c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\employee.h
+
+1541813196 c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\menu.h
+
+1541817277 source:c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1541817277 source:c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
+1541817373 c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\biblioteca.h
+
+1541817823 source:c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Biblioteca.h"
+
+1541817580 source:c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Menu.h"
+
+1541813196 c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\parser.h
+
+1541817396 source:c:\users\liliana\desktop\tecnicatura\practica\clase 27 dos\clase 27-10\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
